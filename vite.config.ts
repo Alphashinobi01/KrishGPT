@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: "/KrishGPT/",
   plugins: [react()],
   define: {
     'process.env.API_KEY': JSON.stringify("AIzaSyBPGoXGcC8rwHw73-h56pjrnwZugxBGqo8")
